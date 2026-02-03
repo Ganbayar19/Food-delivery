@@ -94,7 +94,7 @@ export function FoodDetailDialog({
             </div>
 
             <Button
-          className="w-full bg-gray-900 hover:bg-gray-800 text-white py-5 rounded-full text-sm font-semibold shadow-md"
+          className="w-full bg-gray-900 hover:bg-gray-800 text-white py-5 rounded-full text-sm font-semibold shadow-md "
           onClick={handleAddToCart}
             >
           Add to cart

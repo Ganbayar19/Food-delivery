@@ -9,11 +9,11 @@ type FoodCardProps = {
   ingredients: string;
   image: string;
 };
+
 export function FoodCard({ name, price, ingredients, image }: FoodCardProps) {
   return (
     <Card className="overflow-hidden hover:shadow-lg transition-shadow">
       <div className="relative aspect-video">
-        <div className="w-full h-full bg-linear-to-br from-orange-200 to-red-200" />
         <Image src={image} alt={name} fill className="object-cover" />
         <button className="absolute top-3 right-3 w-10 h-10 bg-white rounded-full flex items-center justify-center hover:bg-gray-100 shadow-md">
           <Pencil className="w-4 h-4 text-gray-600" />

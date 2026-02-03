@@ -11,5 +11,6 @@ export default function LoginPage() {
     window.location.href = "/";
   };
 
-  return <Login goLogin={handleLogin} goSignup={handleGoSignup} />;
+  const LoginComponent = Login as any;
+  return <LoginComponent goLogin={handleLogin} goSignup={handleGoSignup} />;
 }

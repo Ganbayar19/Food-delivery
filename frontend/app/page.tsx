@@ -2,8 +2,6 @@
 
 import { useEffect, useState } from "react";
 import { toast } from "sonner";
-
-import { CartDrawer } from "./_components/CardDrawer";
 import Header from "./_components/Header";
 import Banner from "./_components/Banner";
 import { FoodGrid } from "./_components/FoodGrid";
@@ -11,7 +9,6 @@ import { FoodDetailDialog } from "./_components/FoodDetail-Dialog";
 import { FoodItem } from "./_components/FoodCard";
 import { useCart } from "@/Context/CardContext";
 import Footer from "./_components/Footer";
-import { foods } from "./_components/data/food";
 import {api} from "@/lib/axios";
 const foodItems = [
   {
